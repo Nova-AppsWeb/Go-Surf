@@ -1,0 +1,66 @@
+.hero {
+    &__wrapper-map {
+        position: relative;
+    }
+    &__map {
+        position: relative;
+        top: 367px;
+        left: 92px;
+    }
+    &__dot {
+		width: 24px;
+		height: 24px;
+		box-shadow: 0px 0px 35px 0px rgba(74, 246, 205, 0.84);
+		background: rgb(74, 246, 205);
+        border-radius: 100%;
+        transition: 0.5s;
+        &:hover {
+            opacity: 0.4;
+        }
+	}
+	&__dot1 {
+		position: absolute;
+        top: 697px;
+        left: 79px;
+	}
+    &__dot2 {
+		position: absolute;
+        top: 657px;
+        left: 228px;
+	}
+    &__dot3 {
+		position: absolute;
+        top: 685px;
+        left: 430px;
+	}
+    &__dot4 {
+		position: absolute;
+        top: 868px;
+        left: 505px;
+	}
+    &__dot5 {
+		position: absolute;
+        top: 579px;
+        left: 622px;
+	}
+    &__dot6 {
+		position: absolute;
+        top: 922px;
+        left: 729px;
+	}
+    &__dot7 {
+		position: absolute;
+        top: 762px;
+        left: 890px;
+	}
+    &__dot8 {
+		position: absolute;
+        top: 669px;
+        left: 1111px;
+	}
+    &__dot9 {
+		position: absolute;
+        top: 868px;
+        left: 1181px;
+	}
+}

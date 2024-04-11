@@ -1,0 +1,7 @@
+.svg__search {
+        fill: white;
+        transition: 0.5s;
+        &:hover {
+            fill:  var(--color-svg);
+        } 
+    }

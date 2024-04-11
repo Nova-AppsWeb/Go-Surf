@@ -1,0 +1,14 @@
+.hero {
+	position: relative;
+	// overflow: hidden;
+	&__surf-img {
+		position: absolute;
+		top: 149px;
+		right: 1030px;
+	}
+	&__pio {
+		position: absolute;
+		top: 219px;
+		left: 1291px;
+	}
+}

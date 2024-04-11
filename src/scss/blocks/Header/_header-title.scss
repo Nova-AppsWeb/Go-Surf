@@ -1,0 +1,65 @@
+.header {
+    &__title {
+        position: absolute;
+        top: 610px;
+        right: 73px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        color: rgb(255, 255, 255);
+        font-family: var(--font-main);
+        text-transform: uppercase;
+    }
+    &__h1-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: end;
+        position: relative;
+    }
+    &__subtitle {
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 7px;
+        opacity: 0.5;
+    
+    }
+    &__h1 {
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 86px;
+    }
+    &__h2-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: end;
+        position: relative;
+    }
+    &__h2 {
+        position: relative;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 86px;
+    }
+    &__shape {
+        position: absolute;
+        top: 67px;
+        left: 131px;
+    }
+    &__line {
+        width: 80px;
+        height: 1px;
+        background: rgb(255, 255, 255);
+        opacity: 0.5;
+        position: absolute;
+    }
+    &__line-one {
+        top: 12px;
+        right: 104px;
+    }
+    &__line-two {
+        top: 12px;
+        right: 194px;
+    }
+}
